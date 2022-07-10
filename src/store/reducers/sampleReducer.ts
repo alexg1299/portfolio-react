@@ -11,18 +11,18 @@ export const initState: Portfolio = {
         about: 'Resume',
     },
     intro: {
-        headline: "Hi. Let's talk.",
+        headline: "Hi, I'm Alexandra!",
         typed: [
-            "I'm a front-end developer",
-            'who can edit JSON',
+            "I'm a full-stack web developer",
+            'who can build UIs and APIs',
             'and deploy it.',
         ],
     },
     resume: {
-        headline: 'Describe yourself in one quick sentence',
+        headline: 'Full stack web developer',
         summary: [
-            'Expand on that information in more depth in a few short paragraphs',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+            'I enjoy designing and creating user interfaces with an impactful user experience.',
+            'I love to learn and collaborate with others.',
         ],
         jobsHeadline: 'Employment',
         jobs: [
@@ -51,18 +51,27 @@ export const initState: Portfolio = {
         toolsHeadline: 'Skills',
         tools: [
             {
-                name: 'Software',
-                list: 'Something, Another, Expertise',
+                name: 'Front-end',
+                list: 'React, Typescript, Javascript, HTML5, CSS, C#, APIs, Redux,',
             },
             {
-                name: 'Awards & Publications',
-                list: 'LookieLookie 2018, BigTime Magazine',
+                name: 'Back-end',
+                list: 'APIs, MSSQL, MySQL',
             },
             {
                 name: 'Utilities',
-                list: 'Git, npm, at least',
+                list: 'Git, JIRA, npm, Bamboo',
             },
         ],
+        educationHeadline: 'Education',
+        educationDetails: [
+            {
+                schoolName: 'The University of Texas at San Antonio',
+                graduationDate: 'May 2021',
+                gpa: '3.92/4.0',
+                degreeDetails: 'B.S Computer Science, Concentration in Software Engineering'
+            }
+        ]
     },
     sections: [
         {

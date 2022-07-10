@@ -2,6 +2,7 @@ import Job from './job'
 import Tool from './tool'
 import Section from './section'
 import Social from './social'
+import Education from './education'
 
 export default interface Portfolio {
     meta: {
@@ -24,6 +25,8 @@ export default interface Portfolio {
         jobs: Job[]
         toolsHeadline: string
         tools: Tool[]
+        educationHeadline: string
+        educationDetails: Education[]
     }
     sections: Section[]
     footer: {

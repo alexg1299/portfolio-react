@@ -7,12 +7,15 @@ import List from './list'
 import Intro from './intro'
 import Tool from '../../models/tool'
 import Job from '../../models/job'
+import Education from '../../models/education'
 
 export interface ResumeProps {
     toolsHeadline: string
     tools: Tool[]
     jobsHeadline: string
     jobs: Job[]
+    educationHeadline: string
+    educationDetails: Education[]
 }
 
 export const Resume: React.FC<ResumeProps> = props => (
@@ -33,6 +36,13 @@ export const Resume: React.FC<ResumeProps> = props => (
                             headline={props.jobsHeadline}
                             list={props.jobs}
                             tag="job"
+                        />
+                    </Col>
+                    <Col md={6}>
+                        <List
+                            headline={props.educationHeadline}
+                            list={props.educationDetails}
+                            tag="education"
                         />
                     </Col>
                 </Row>

@@ -17,3 +17,8 @@
 1. Publish with the `npm run deploy` command
 
 ### [Todo list](https://github.com/doublejosh/react-portfolio/wiki)
+
+## Getting Started
+1. Standard `npm install` command
+1. Update npm to latest version `npm i -g npm`
+1. Install react and react-dom if needed `npm install --save-dev @types/react-dom` `npm install --save-dev @types/react`
