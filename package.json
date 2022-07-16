@@ -2,7 +2,7 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://alexg1299.github.io/alexg1299/portfolio-react",
+    "homepage": "https://alexg1299.github.io/portfolio-react",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.26",
         "@fortawesome/free-brands-svg-icons": "^5.12.0",
@@ -14,7 +14,6 @@
         "@types/react-redux": "7.1.24",
         "animate.css": "^3.7.2",
         "bootstrap": "^4.4.1",
-        "gh-pages": "^2.2.0",
         "jquery": "^3.4.1",
         "jquery.easing": "^1.4.1",
         "node-sass": "^4.12.0",
@@ -69,7 +68,9 @@
         "eslint": "^6.8.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-react-hooks": "^2.3.0",
+        "gh-pages": "^4.0.0",
         "prettier": "^1.19.1",
+        "react-router-dom": "^6.3.0",
         "source-map-loader": "^0.2.4",
         "ts-loader": "^6.2.1"
     },
