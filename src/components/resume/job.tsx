@@ -23,7 +23,16 @@ export const Job: React.FC<JobProps> = props => (
                 {props.previousTitle}
             </h5>
         }
-        <p className="font-weight-light">{props.summary}</p>
+        {
+            props.summary &&
+            <p className="font-weight-light">{props.summary}</p>
+        }
+        {
+            props.summaryList &&
+            <ul>
+                {props.summaryList.map((summaryItem: string) => <li className="font-weight-light">{summaryItem}</li>)}
+            </ul>
+        }
     </React.Fragment>
 )
 

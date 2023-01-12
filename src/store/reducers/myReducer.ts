@@ -32,14 +32,15 @@ export const initState: Portfolio = {
                 timeframe: 'June 2021-Present',
                 previousTitle: 'Student Computer Scientist',
                 previousTimeFrame: 'May 2020-June 2021',
-                summary:
-                    "Designed and implemented modular React UI components, APIs, and C# backend subsystems for a full-stack web application which is used by traffic operators in New England to monitor traffic conditions and send updates to various traffic monitors and devices." +
-                    "Assisted in the transition of our monolithic windows application to a dockerized, decentralized system of microservices. Updated RESTful API from Swagger to OpenAPI3. Upgraded our backend legacy codebase to match updated advanced traffic management software (ATMS) and created scripts to update MSSQL database tables." +
-                    "Utilized Git, JIRA, Bamboo, and Bitbucket for source control. Assisted in the transition from a waterfall to an agile development cycle." +
-                    "Led the development and implementation of unit tests using NUnit for all ATMS applications across the division." +
-                    "Reviewed and provided feedback on pull requests to ensure code merged into production was of the highest quality. Onboarded and provided technical support for 3 new hires." +
-                    "Provided 24/7 on-call troubleshooting and support for traffic monitoring software to ensure client satisfaction." +
-                    "Ensured new hire candidates met institute expectations/qualifications by conducting behavioral and technical interviews. Also participated in project cost estimation to ensure clients were charged at reasonable rate.",
+                summaryList: [
+                    "Designed and implemented modular React UI components, APIs, and C# backend subsystems for a full-stack web application which is used by traffic operators in New England to monitor traffic conditions and send updates to various traffic monitors and devices.",
+                    "Assisted in the transition of our monolithic windows application to a dockerized, decentralized system of microservices. Updated RESTful API from Swagger to OpenAPI3. Upgraded our backend legacy codebase to match updated advanced traffic management software (ATMS) and created scripts to update MSSQL database tables.",
+                    "Utilized Git, JIRA, Bamboo, and Bitbucket for source control. Assisted in the transition from a waterfall to an agile development cycle.",
+                    "Led the development and implementation of unit tests using NUnit for all ATMS applications across the division.",
+                    "Reviewed and provided feedback on pull requests to ensure code merged into production was of the highest quality. Onboarded and provided technical support for 3 new hires.",
+                    "Provided 24/7 on-call troubleshooting and support for traffic monitoring software to ensure client satisfaction.",
+                    "Ensured new hire candidates met institute expectations/qualifications by conducting behavioral and technical interviews. Also participated in project cost estimation to ensure clients were charged at reasonable rate."
+                ]
             },
         ],
         toolsHeadline: 'Skills',

@@ -4,5 +4,6 @@ export default interface Job {
     previousTitle?: string
     previousTimeFrame?: string
     company: string
-    summary: string
+    summary?: string
+    summaryList?: string[]
 }
