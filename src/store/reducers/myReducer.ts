@@ -46,7 +46,7 @@ export const initState: Portfolio = {
         tools: [
             {
                 name: 'Front-end',
-                list: 'React, Typescript, Javascript, HTML5, CSS, C#, Redux, Webpack, Material UI, npm',
+                list: 'React, Typescript, Javascript, HTML5, CSS, Redux, Webpack',
             },
             {
                 name: 'Back-end',
@@ -54,7 +54,7 @@ export const initState: Portfolio = {
             },
             {
                 name: 'Utilities',
-                list: 'Git, JIRA, Bamboo, Confluence, Balsamiq Wireframes, Microsoft Teams',
+                list: 'Git, npm, Material UI, JIRA, Bamboo, Confluence, Balsamiq Wireframes',
             },
         ],
         educationHeadline: 'Education & Certification',
@@ -68,8 +68,7 @@ export const initState: Portfolio = {
             {
                 schoolName: 'SCRUM Master Certification',
                 degreeDetails: 'Scrum Alliance',
-                graduationDate: 'Sept 2021-Oct. 2023',
-                gpa: ''
+                graduationDate: 'Sept 2021-Oct. 2023'
             }
         ]
     },
@@ -78,7 +77,7 @@ export const initState: Portfolio = {
             id: 'portfolio',
             menu: 'Portfolio',
             headline: 'Portfolio',
-            subhead: 'Projects that mattered.',
+            subhead: 'Learning while making cool projects!',
             projects: [
                 {
                     id: 'section-1-project-0',
@@ -120,7 +119,7 @@ export const initState: Portfolio = {
                     id: 'section-1-project-3',
                     title: 'Fare Escape',
                     summary:
-                        'An endless runner game made with Unity. Utilized C# to create algorithms to keep track of players scoring and health.',
+                        'An endless runner game made with Unity. Utilized C# to create algorithms to keep track of player\'s scoring and health.',
                     image: 'fareEscapeMainMenu.png',
                     links: [
                         {

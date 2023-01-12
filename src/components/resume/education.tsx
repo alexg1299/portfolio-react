@@ -8,8 +8,11 @@ export const Education: React.FC<EducationProps> = props => (
             {props.graduationDate}
         </Badge>
         <h5>
-            {props.schoolName} -{' '}
-            <span className="font-weight-normal">{props.gpa}</span>
+            {props.schoolName}
+            {
+                props.gpa &&
+                <span className="font-weight-normal"> -{' '}{props.gpa}</span>
+            }
         </h5>
         <p className="font-weight-light">{props.degreeDetails}</p>
     </React.Fragment>
