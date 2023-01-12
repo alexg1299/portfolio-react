@@ -5,6 +5,7 @@ import {
     faTumblr,
     faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Social from './../../models/social'
 
 export const Socials: React.FC<{ list: Social[] }> = props => {
@@ -12,6 +13,7 @@ export const Socials: React.FC<{ list: Social[] }> = props => {
         github: faGithub,
         tumblr: faTumblr,
         linkedin: faLinkedin,
+        email: faEnvelope
     }
 
     return (

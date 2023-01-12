@@ -2,8 +2,8 @@ import Portfolio from '../../models/portfolio'
 
 export const initState: Portfolio = {
     meta: {
-        title: 'My Portfolio',
-        description: 'Lots of info about you.',
+        title: 'Alexandra Garcia',
+        description: 'Hello!',
         showRepoLink: true,
     },
     menu: {
@@ -13,7 +13,7 @@ export const initState: Portfolio = {
     intro: {
         headline: "Hi, I'm Alexandra!",
         typed: [
-            "I'm a full-stack web developer",
+            "I'm a full stack web developer",
             'who can build UIs and APIs',
             'and deploy it.',
         ],
@@ -22,54 +22,54 @@ export const initState: Portfolio = {
         headline: 'Full stack web developer',
         summary: [
             'I enjoy designing and creating user interfaces with an impactful user experience.',
-            'I love to learn and collaborate with others.',
+            'I love to learn and collaborate with others.'
         ],
         jobsHeadline: 'Employment',
         jobs: [
             {
-                title: 'VP of Something',
-                company: 'Fancy LLC',
-                timeframe: '2015-2020',
+                title: 'Computer Scientist',
+                company: 'Southwest Research Institute',
+                timeframe: 'June 2021-Present',
+                previousTitle: 'Student Computer Scientist',
+                previousTimeFrame: 'May 2020-June 2021',
                 summary:
-                    "List all the cool stuff you did here. Don't be shy, but be honest and specific.",
-            },
-            {
-                title: 'Director of Stuff',
-                company: 'Neato Inc.',
-                timeframe: '2010-2015',
-                summary:
-                    'Highlight some accomplishments in these descriptions. Sometimes people even read them.',
-            },
-            {
-                title: 'Developer',
-                company: 'WorkJob Co.',
-                timeframe: '2005-2010',
-                summary:
-                    'Action works and quantified results help explain what you really did in a job.',
+                    "Designed and implemented modular React UI components, APIs, and C# backend subsystems for a full-stack web application which is used by traffic operators in New England to monitor traffic conditions and send updates to various traffic monitors and devices." +
+                    "Assisted in the transition of our monolithic windows application to a dockerized, decentralized system of microservices. Updated RESTful API from Swagger to OpenAPI3. Upgraded our backend legacy codebase to match updated advanced traffic management software (ATMS) and created scripts to update MSSQL database tables." +
+                    "Utilized Git, JIRA, Bamboo, and Bitbucket for source control. Assisted in the transition from a waterfall to an agile development cycle." +
+                    "Led the development and implementation of unit tests using NUnit for all ATMS applications across the division." +
+                    "Reviewed and provided feedback on pull requests to ensure code merged into production was of the highest quality. Onboarded and provided technical support for 3 new hires." +
+                    "Provided 24/7 on-call troubleshooting and support for traffic monitoring software to ensure client satisfaction." +
+                    "Ensured new hire candidates met institute expectations/qualifications by conducting behavioral and technical interviews. Also participated in project cost estimation to ensure clients were charged at reasonable rate.",
             },
         ],
         toolsHeadline: 'Skills',
         tools: [
             {
                 name: 'Front-end',
-                list: 'React, Typescript, Javascript, HTML5, CSS, C#, APIs, Redux,',
+                list: 'React, Typescript, Javascript, HTML5, CSS, C#, Redux, Webpack, Material UI, npm',
             },
             {
                 name: 'Back-end',
-                list: 'APIs, MSSQL, MySQL',
+                list: 'C#, APIs, MSSQL, AWS, .NET, C, Java, Python, C++',
             },
             {
                 name: 'Utilities',
-                list: 'Git, JIRA, npm, Bamboo',
+                list: 'Git, JIRA, Bamboo, Confluence, Balsamiq Wireframes, Microsoft Teams',
             },
         ],
-        educationHeadline: 'Education',
+        educationHeadline: 'Education & Certification',
         educationDetails: [
             {
                 schoolName: 'The University of Texas at San Antonio',
                 graduationDate: 'May 2021',
-                gpa: '3.92/4.0',
+                gpa: 'Summa Cum Laude | 3.92/4.0',
                 degreeDetails: 'B.S Computer Science, Concentration in Software Engineering'
+            },
+            {
+                schoolName: 'SCRUM Master Certification',
+                degreeDetails: 'Scrum Alliance',
+                graduationDate: 'Sept 2021-Oct. 2023',
+                gpa: ''
             }
         ]
     },
@@ -81,32 +81,54 @@ export const initState: Portfolio = {
             subhead: 'Projects that mattered.',
             projects: [
                 {
-                    id: 'section-1-project-1',
-                    title: 'My Cool Project',
+                    id: 'section-1-project-0',
+                    title: 'Personal Portfolio',
                     summary:
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-                    image: '',
+                        'You are here :) This is my personal portfolio React website showcasing who I am and the cool projects I have done!',
+                    image: 'react',
                     links: [
                         {
-                            label: 'Example',
+                            label: 'See me on GitHub',
                             url:
                                 'https://github.com/alexg1299/portfolio',
                         },
                     ],
                 },
                 {
-                    id: 'section-1-project-2',
-                    title: 'Another One',
+                    id: 'section-1-project-1',
+                    title: 'Dont Go Broke',
                     summary:
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-                    image: '',
+                        'Python script that parses bank statement files and organizes the data as a csv file.',
+                    image: 'saveBank.png',
+                    links: [
+                        {
+                            label: 'See me on GitHub',
+                            url:
+                                'https://github.com/alexg1299/DontGoBroke',
+                        },
+                    ],
+                },
+                {
+                    id: 'section-1-project-2',
+                    title: 'Circle',
+                    summary:
+                        'Mental Wellness mobile application that provides resources, support, and education materials to its users.' +
+                        'Collaborated with developers and client to research UX and created UI components using Java in Android Studio.',
+                    image: 'earth.jpg',
                 },
                 {
                     id: 'section-1-project-3',
-                    title: 'Something Neat',
+                    title: 'Fare Escape',
                     summary:
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-                    image: '',
+                        'An endless runner game made with Unity. Utilized C# to create algorithms to keep track of players scoring and health.',
+                    image: 'fareEscapeMainMenu',
+                    links: [
+                        {
+                            label: 'See me on GitHub',
+                            url:
+                                'https://github.com/alexg1299/Fare-Escape',
+                        },
+                    ],
                 },
             ],
         },
@@ -114,17 +136,17 @@ export const initState: Portfolio = {
     footer: {
         social: [
             {
-                service: 'tumblr',
-                link: 'https://www.tumblr.com',
-            },
-            {
                 service: 'github',
-                link: 'https://github.com',
+                link: 'https://github.com/alexg1299',
             },
             {
                 service: 'linkedin',
-                link: 'https://www.linkedin.com',
+                link: 'https://www.linkedin.com/in/alexandra-g1299/',
             },
+            {
+                service: 'email',
+                link: 'mailto:alexgarcia1299@yahoo.com?subject=Hey! Checked out your portfolio!'
+            }
         ],
         footerMessage: 'Thanks for reading.',
         background: '',
