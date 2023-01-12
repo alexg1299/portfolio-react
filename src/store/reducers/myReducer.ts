@@ -85,7 +85,7 @@ export const initState: Portfolio = {
                     title: 'Personal Portfolio',
                     summary:
                         'You are here :) This is my personal portfolio React website showcasing who I am and the cool projects I have done!',
-                    image: 'react',
+                    image: 'react.svg',
                     links: [
                         {
                             label: 'See me on GitHub',
@@ -114,14 +114,14 @@ export const initState: Portfolio = {
                     summary:
                         'Mental Wellness mobile application that provides resources, support, and education materials to its users.' +
                         'Collaborated with developers and client to research UX and created UI components using Java in Android Studio.',
-                    image: 'earth.jpg',
+                    image: 'circleImage.jpg',
                 },
                 {
                     id: 'section-1-project-3',
                     title: 'Fare Escape',
                     summary:
                         'An endless runner game made with Unity. Utilized C# to create algorithms to keep track of players scoring and health.',
-                    image: 'fareEscapeMainMenu',
+                    image: 'fareEscapeMainMenu.png',
                     links: [
                         {
                             label: 'See me on GitHub',
